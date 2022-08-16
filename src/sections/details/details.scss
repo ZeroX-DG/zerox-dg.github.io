@@ -1,0 +1,36 @@
+#details {
+    margin-top: 120px;
+    .detail {
+        margin: 0 auto;
+        max-width: 700px;
+        display: flex;
+        margin-bottom: 70px;
+
+        p:first-of-type {
+            margin-top: 0;
+        }
+
+        &-title {
+            font-weight: bold;
+            width: 120px;
+        }
+        &-body {
+            flex: 1;
+        }
+    }
+
+    .work {
+        margin: 0;
+        margin-bottom: 0.5em;
+        &-year {
+            opacity: 0.5;
+            width: 110px;
+            display: inline-block;
+        }
+    }
+
+    .project {
+        margin: 0;
+        margin-bottom: 0.5em;
+    }
+}
