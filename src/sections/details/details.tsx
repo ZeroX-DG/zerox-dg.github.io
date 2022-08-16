@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReadingList } from '../../components/reading-list/reading-list';
 import './details.scss';
 
 export const Details = () => (
@@ -48,6 +49,7 @@ export const Details = () => (
         <div className='detail'>
             <div className='detail-title'>Reading</div>
             <div className='detail-body'>
+                <ReadingList />
             </div>
         </div>
     </div>
