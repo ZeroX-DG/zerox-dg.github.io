@@ -8,7 +8,7 @@ export const Details = () => (
             <div className='detail-title'>About</div>
             <div className='detail-body'>
                 <p>Hi there! I'm Viet-Hung, but I usually go by Hung.</p>
-                <p>Most of the time, I'm a software engineer. But when I'm not building stuff, I like to dabble in writing, art, poetry, philosophy, and psychology.</p>
+                <p>Most of the time, I'm a software engineer. But when I'm not building stuff, I like to enjoy <a href="https://letterboxd.com/viethung/films/" target="_blank">good movies</a> or dabble in writing, art, poetry, philosophy, and psychology.</p>
                 <p>I'm always up for a chat at viethungax [at] gmail.com!</p>
                 <p>
                     <a href="https://viethung.space/blog" target="_blank">Blog</a>{" "}•{" "}
