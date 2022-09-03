@@ -33,4 +33,21 @@
         margin: 0;
         margin-bottom: 0.5em;
     }
+    
+    @media (max-width: 768px) {
+        .detail {
+            flex-direction: column;
+            padding: 0 20px;
+            &-title {
+                margin-bottom: 1.5em;
+                font-size: 1.25em;
+            }
+        }
+
+        .work {
+            &-year {
+                display: block;
+            }
+        }
+    }
 }
