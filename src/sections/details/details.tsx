@@ -30,6 +30,9 @@ export const Details = () => (
             <div className='detail-title'>Projects</div>
             <div className='detail-body'>
                 <p className='project'>
+                    <a href="https://github.com/ZeroX-DG/raven" target="_blank">Raven:</a> A toy terminal emulator written in Rust.
+                </p>
+                <p className='project'>
                     <a href="https://github.com/ZeroX-DG/moon" target="_blank">Moon:</a> A web browser that I develop from scratch as a hobby.
                 </p>
                 <p className='project'>
