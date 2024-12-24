@@ -20,12 +20,16 @@
     "@parcel/transformer-sass": "^2.7.0",
     "@types/react": "^18.0.17",
     "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.5.3",
     "process": "^0.11.10",
-    "typescript": "^4.7.4"
+    "typescript": "5"
   },
   "dependencies": {
+    "i18next": "^24.2.0",
+    "i18next-http-backend": "^3.0.1",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-i18next": "^15.2.0"
   }
 }

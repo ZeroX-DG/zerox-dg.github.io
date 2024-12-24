@@ -1,0 +1,17 @@
+{
+    "Viet-Hung Nguyen": "Nguyễn Việt Hưng",
+    "Hi there! I'm Viet-Hung, but I usually go by Hung.": "Ê khoẻ hông! Tui là Việt Hưng, nhưng mọi người kêu bằng Hưng.",
+    "I'm based in Auckland, New Zealand, where it's currently": "Tui hiện đang bán mình cho tư bản ở Auckland, New Zealand, và giờ bên tui đang là",
+    "I'm a software engineer most of the time. But when I'm not building stuff, I enjoy good films, music, playing guitar, dabbling in writing, or reading a good novel.": "Đa phần hiện tại tui là kỹ sư phần mềm. Thời gian còn lại thì tui sẽ xem phim, nghe nhạc, viết lách hoặc đọc một cuốn tiểu thuyết nào đó.",
+    "About": "Về Tui",
+    "Work": "Đi Làm",
+    "Projects": "Dự Án",
+    "Reading": "Đang Đọc",
+    "A toy terminal emulator written in Rust.": "Một trình giả lập đầu cuối (terminal emulator) viết bằng Rust.",
+    "A web browser that I develop from scratch as a hobby.": "Một trình duyệt web (web browser) tui viết cho vui.",
+    "A tool for transforming images/screenshots.": "Công cụ tạo hình chụp góc nghiêng.",
+    "A code snippet management for developers.": "Công cụ để quản lý code snippet cho lập trình viên.",
+    "A tool combining todo list & git version control.": "Công cụ kết hợp \"danh sách việc cần làm\" và git.",
+    "A modern markdown editor powered by CodeMirror.": "Một trình soạn thảo markdown xây dựng trên CodeMirror.",
+    "Now": "Hiện Tại"
+}

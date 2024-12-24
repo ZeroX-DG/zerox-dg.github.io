@@ -22,13 +22,14 @@
     }
 
     .work {
-        margin: 0;
-        margin-bottom: 0.5em;
+        border-collapse: collapse;
+        .work-year {
+          opacity: .5;
+          padding-right: 20px;
+        }
 
-        &-year {
-            opacity: 0.5;
-            width: 110px;
-            display: inline-block;
+        tr {
+          height: 2em;
         }
     }
 
