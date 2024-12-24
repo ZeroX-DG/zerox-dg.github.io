@@ -1,0 +1,32 @@
+.toggle {
+  .option {
+
+    input {
+      display: none;
+    }
+
+    input + label {
+      opacity: .5;
+      cursor: pointer;
+      transition: opacity .3s;
+    }
+
+    input + label:hover {
+      opacity: .8;
+    }
+
+    input:checked + label {
+      opacity: 1;
+    }
+  }
+
+  .separator {
+    margin: 0 12px;
+    width: 2px;
+    height: 1em;
+    background: rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    vertical-align: text-bottom;
+    transform: rotate(20deg);
+  }
+}
