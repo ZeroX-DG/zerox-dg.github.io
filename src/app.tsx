@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Details } from "./sections/details/details";
 import { Introduction } from "./sections/introduction/introduction";
 
@@ -15,6 +15,10 @@ export const App = () => {
         setLanguage(language);
         i18n.changeLanguage(language);
     };
+
+    useEffect(() => {
+        document.querySelector('html')!.className = 'theme-' + theme;
+    });
 
     return (
         <>

@@ -24,7 +24,8 @@
     margin: 0 12px;
     width: 2px;
     height: 1em;
-    background: rgba(0, 0, 0, 0.25);
+    background: var(--main-fg-color);
+    opacity: .5;
     display: inline-block;
     vertical-align: text-bottom;
     transform: rotate(20deg);
