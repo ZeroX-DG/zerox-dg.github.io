@@ -4,7 +4,7 @@ name: CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -28,16 +28,16 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v1
-      
+
       - name: Install & Build
         run: |
           npm ci
           npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist/'
+          path: "dist/"
 
   deploy:
     environment:
@@ -48,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
