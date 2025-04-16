@@ -56,7 +56,11 @@ export const Details = () => {
                 <div className='detail-body'>
                     <table className='work'>
                         <tr>
-                            <td className='work-year'>2021 - {t(`Now`)}</td>
+                            <td className='work-year'>2025 - {t(`Now`)}</td>
+                            <td>Software Team Lead @ <a href="https://www.geneious.com/" target="_blank">Biomatters</a></td>
+                        </tr>
+                        <tr>
+                            <td className='work-year'>2021 - 2025</td>
                             <td>Full-stack Developer @ <a href="https://www.geneious.com/" target="_blank">Biomatters</a></td>
                         </tr>
                         <tr>
