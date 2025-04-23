@@ -42,7 +42,7 @@ export const Details = () => {
                     <p>
                         <a href="https://viethung.space/blog" target="_blank">Blog</a>{" "}•{" "}
                         <a href="https://github.com/ZeroX-DG" target="_blank">GitHub</a>{" "}•{" "}
-                        <a href="https://twitter.com/itsviethung" target="_blank">Twitter</a>{" "}•{" "}
+                        <a href="https://www.threads.net/@zerox.hung" target="_blank">Threads</a>{" "}•{" "}
                         <a href="https://www.linkedin.com/in/v-hung/" target="_blank">LinkedIn</a>{" "}
                     </p>
                     <p>
