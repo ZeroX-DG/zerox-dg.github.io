@@ -78,6 +78,9 @@ export const Details = () => {
                 <div className='detail-title'>{t(`Projects`)}</div>
                 <div className='detail-body'>
                     <p className='project'>
+                        <a href="https://ptauckland3d.com/" target="_blank">3D Auckland Public Transportation Map:</a> {t(`A real-time 3D digital map of Auckland's public transport system.`)}
+                    </p>
+                    <p className='project'>
                         <a href="https://github.com/ZeroX-DG/raven" target="_blank">Raven:</a> {t(`A toy terminal emulator written in Rust.`)}
                     </p>
                     <p className='project'>
